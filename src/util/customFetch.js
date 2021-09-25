@@ -1,8 +1,8 @@
-const baseURL = "http://localhost:8080";
-const origin = "http://localhost:3000";
+// const baseURL = "http://localhost:8080";
+// const origin = "http://localhost:3000";
 
-// const baseURL = "https://plh-bookshop-backend.herokuapp.com";
-// const origin = "https://plh-bookshop.herokuapp.com";
+const baseURL = "https://cdweb-hhstore-backend.herokuapp.com";
+const origin = "https://cdweb-hhstore.herokuapp.com";
 
 export const customFetch = (url, methodType, bodyContent) => {
   const apiURL = baseURL + url;
